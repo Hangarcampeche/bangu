@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+       <meta charset="UTF-8">
+       <title>A. R. C. E. Bangu - Escolinha</title>
+       <link rel="stylesheet" href="css/escolinha.css">
+       <link rel="stylesheet" href="css/todos.css">
+       <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+       <link rel="shortcut icon" href="favicon.png">
+
+</head> 
+<body>
+<header id="menu">
+        <nav><ul>
+            <li><a href ='bangu.html'><img src="imagens/bangulogo1.png" width="30" height="30" /></a></li>
+            <li><a href ='aluguel.html'>Aluguél</a></li>
+            <li><a href ='taça_bangu.html'>Taça</a></li>
+            <li><a href ='escolinha.html'>Escolinha</a></li>
+        </ul></nav>
+</header>
+<header id="site">
+       <h1>Escolinha</h1>
+
+
+      <div id="escolinha"><img src="imagens/time/escolinha1.jpg" alt="bangu" width="800" height="350"/></div>        
+      <div id="caixa4"></div>
+      <div id="texto"><p>O projeto Futebol e Cidadania da <a href="https://www.udesc.br/busca?q=projeto%20Futebol%20e%20Cidadania/site/" target="blank">UDESC</a> é realizado há 15 anos com o apoio do Bangu do Rio Tavares, time de futebol local, na Associação Recreativa Esportiva e Cultural Bangu. O projeto que tem a coordenação do professor da Universidade de educação física Alfredo Balduíno, e realizados pelos alunos. A ação atende crianças e adolescentes dos 5 aos 18 anos três vezes por semana, terças e quintas, no período da tarde e sábados pela manhã. A ação busca valorizar as crianças e os jovens do local através do esporte e da promoção da cidadania. Ensinar a disciplina dentro e fora do campo, reforçar qualidades individuais e coletivas, promover o respeito às regras e ao próximo.</p></div> 
+
+      <div id="treino1"><img src="imagens/time/sub10.jpg" alt="bangu" width="455" height="245"id="treino1" /></div>
+	    <div id="treino2"><img src="imagens/time/sub13.jpg" alt="bangu" width="455" height="245" /></div>
+	    <div id="treino3"><img src="imagens/time/sub15.jpg" alt="bangu" width="455" height="245" /></div>
+	    <div id="treino4"><img src="imagens/time/feminino.jpg" alt="bangu" width="455" height="245" /></div>
+
+      <div id="caixa5"><p>Apoiadores:</p> 
+      <div id="foto5" ><img src="imagens/udesc.jpg"  alt="bangu"/></div>
+          <div id="vertical1"></div>
+      <div id="foto6" ><img src="imagens/fort.png"  alt="bangu"/></div>
+          <div id="vertical2"></div>
+      <div id="foto7" ><img src="imagens/pizza.png"  alt="bangu"/></div>
+          <div id="vertical3"></div>
+      <div id="foto8" ><img src="imagens/vieira.png"  alt="bangu"/></div></div>
+</header>
+<div id="datas1"></div>
+<header class="datas">
+<div id="datas">
+      <div id="treino5"><img src="imagens/time/sub10.jpg" alt="bangu" width="315" height="195" /><p>Sub10</p>
+      <div id="treino50"><p>Quartas as 14:00 hrs</p></div>
+      <div id="treino51"><p>Sabados as 8:00 hrs</p></div>
+      <div id="treino52"><p>Só Masculino</p></div></div>
+      <div id="treino6"><img src="imagens/time/sub13.jpg" alt="bangu" width="315" height="195" /><p>Sub13</p>
+      <div id="treino50"><p>Quartas as 14:00 hrs</p></div>
+      <div id="treino51"><p>Sabados as 8:00 hrs</p></div>
+      <div id="treino52"><p>Só Masculino</p></div></div>
+      <div id="treino7"><img src="imagens/time/sub15.jpg" alt="bangu" width="315" height="195" /><p>Sub15</p>
+      <div id="treino50"><p>Quartas as 14:00 hrs</p></div>
+      <div id="treino51"><p>Sabados as 8:00 hrs</p></div>
+      <div id="treino72"><p>Masculino e feminino</p></div></div>
+</div>
+</header>
+
+<header class="mapa"> 
+	<div id="datas">
+      <div id="mapa0"><p>Endereço</p></div>
+      <div id="mapa1"><p><b>RUA</b></p></div>
+      <div id="mapa2"><p>Rodovia SC-405, n° 356 - Rio Tavares</p></div>
+      <div id="mapa3"><p><b>BAIRRO</b></p></div>
+      <div id="mapa4"><p>Rio Tavares</p></div>
+      <div id="mapa5"><p><b>CEP</b></p></div>
+      <div id="mapa6"><p>88063700</p></div>
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+      <script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(-27.665197,-48.502348,3);
+  var mapOptions = {
+    zoom: 15,
+    center: myLatlng
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+      'sandstone rock formation in the southern part of the '+
+      'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+      'south west of the nearest large town, Alice Springs; 450&#160;km '+
+      '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+      'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+      'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+      'Aboriginal people of the area. It has many springs, waterholes, '+
+      'rock caves and ancient paintings. Uluru is listed as a World '+
+      'Heritage Site.</p>'+
+      '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+      'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+      '(last visited June 22, 2009).</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Uluru (Ayers Rock)'
+  });
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+      <div id="map-canvas"></div>
+  </div>
+</header>
+<div id="caixa2"></div>
+<form method="post" name="fcontato" action="mailto:daniavai.antunes@gmail.com">
+<fieldset id="usuario">
+    <div id="caixa"><h2>Inscrisções abertas</h2><h3>Nome*<input type="text" name="tnome" id="cnome" size="30" placeholder="Nome Completo"></h3>
+    <h3>E-mail*<input type="email" name="tmail" id="cmail" size="30"></h3>
+    <h3>Data de Nasc.*<input type="date" name="tdate" id="cdate" size="30" ></h3>
+
+   <h3>Bairro*
+    <select name="tbairro" id="cbairro">
+      <option>Armação</option>
+      <option>Arreias</option>
+      <option>Caeira da Barra do sul</option>
+        <option>Campeche</option>
+        <option>Carianos</option>
+      <option>Castanheiras</option>
+        <option>Costa de Cima</option>
+      <option>Costa de Dentro</option>
+        <option>Costeira</option>
+        <option>Lagoa da Coceição</option>
+        <option>Morro das Pedras</option>
+        <option>Pantano do Sul</option>
+      <option>Porto da lagoa</option>
+        <option>Ribeirão da Ilha</option>
+        <option selected>Rio Tavares</option>
+      <option>Tapera</option>
+    </select></h3>
+   <h3><input type="submit" name="BTEnvia" value="Enviar" id="aperta"></h3></div>
+</fieldset>
+</form>
+<div class="caixa3"></div><div id="caixa3"><p>&nbsp&nbspO projeto Futebol e Cidadania da UDESC é realizado há 15 anos com o apoio do Bangu do Rio Tavares, time de futebol local, na Associação Recreativa Esportiva e Cultural Bangu. O projeto que tem a coordenação do professor da Universidade de educação física Alfredo Balduíno, e realizados pelos alunos.</div>
+</header>
+<div id="roda">  
+
+  <footer>
+        <h4>Patrocínio</h4>
+            <div id="foto1" ><a href="http://sushisatori.com.br/on/" target="blank"><img src="imagens/satori.jpg"  alt="bangu" width="165" height="143" style="border-radius: 27px 0px 27px 0px;"  /></a></div>
+
+            <div id="foto2" ><a href="http://www.ricardoimoveissul.com.br/" target="blank"><img src="imagens/ricardo.jpg"  alt="bangu" width="165" height="143" style="border-radius: 27px 0px 27px 0px;" /></a></div>
+
+            <div id="foto3" ><a href="http://estrelapizza.com.br/site/" target="blank"><img src="imagens/pizza.png"  alt="bangu" width="195" height="140" style="border-radius: 27px 0px 27px 0px;" /></a></div>
+            
+            <div id="foto4" ><img src="imagens/vieira.png"  alt="bangu" width="165" height="143" style="border-radius: 27px 0px 27px 0px;" /></div>
+
+        <div id="sobre">Sobre</div>
+                        <li id="sobre1"><a href ='duvidas.html'><p>Duvidas</p></a></li>
+                        <li id="sobre2"><a href ='fale.html'><p>Fale conosco</p></a></li>
+
+        <div id="site1">Site</div>
+                        <li id="site2"><a href ='bangu.html'><p>Inicio</p></a></li>
+                        <li id="site3"><a href ='aluguel.html'><p>Aluguel</p></a></li>
+                        <li id="site4"><a href ='jogos.html'><p>Jogos</p></a></li>
+                        <li id="site5"><a href ='escolinha.html'><p>Escolinha</p></a></li>
+
+        <div id="bar1">Bar</div>
+                        <li id="bar2"><a href ='../buteco/bar.html'><p>Bar</p></a></li>
+                        <li id="bar3"><a href ='../buteco/pratos.html'><p>Pratos</p></a></li>
+                        <li id="bar4"><a href ='../buteco/petiscos.html'><p>Petiscos</p></a></li>
+                        <li id="bar5"><a href ='../buteco/bebidas.html'><p>Bebidas</p></a></li>
+
+        <div id="social">Redes Sociais</div>
+                        <li id="social1"><a href="https://twitter.com/crvascodagama" target="blank"><p>Facebook</p></a></li>
+                        <li id="social2"><a href="https://twitter.com/crvascodagama" target="blank"><p>Twitter</p></a></li>
+                        <li id="social3"><a href="https://instagram.com/arcebangu/" target="blank"><p>Instagram</p></a></li>
+    
+        <div id="img1" ><img src="imagens/bangu.png"  alt="bangu" title="Bangu" width="49" height="63" /></div>
+        <h5>Associação Recreativa Cultural Esportiva Bangu</h5>
+        <div id="rua">Rodovia SC-405, 356 - Rio Tavares</div>   
+    </footer>     
+</body>
+</html>

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: #dcdcdc;
+    padding: 0;
+}
+
+#site {
+    position: relative;
+    width: 100%;
+    margin: -39px auto;
+}
+
+#menu {
+   position: relative;
+   width: 100%;
+   height: 50px;
+   box-shadow: 0 0 3px  black;
+   background-color: #A61407;
+}
+        
+nav ul {
+   position: relative;
+   width: 1100px;
+   margin: 0px auto;
+}
+
+nav li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+nav li a, nav li #Menu {
+    position: relative;
+    left: 313px;
+    color: #FFFFFF; 
+    display: block;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: helvetica;
+    text-decoration: none;
+    padding: 15px 10px 10px 10px;
+}
+
+nav li img {
+    margin: -5px 10px 0 0;
+}
+
+nav li a:hover {
+    color: #dcdcdc;
+}
+
+nav li #Menu:hover  {
+    color: #ADFF2F;
+}
+
+#img {
+    position: relative;
+    margin: 35px 0 0 745px;
+}
+
+#linha, #linhas {
+    position: relative;
+    width: 400px;
+    height: 1px;
+    background-color: black;
+}
+
+#linha {
+    margin: -23px 0 0 325px;
+}
+
+#linhas {
+    margin: 0 0 0 805px;
+}
+
+
+#roda {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+}
+
+footer {
+    position: relative;
+    width: 1100px;
+    margin: auto;
+}
+
+h4 {
+    position: relative;
+    font-family: Verdana;
+    line-height: 1.50;
+    font-weight: 700;
+    letter-spacing: .092em;
+    font-size: 35px;
+    margin: 33px 0 0 437px;
+}   
+
+#foto1 img, #foto2 img, #foto3 img, #foto4 img {
+    position: absolute;
+    border-radius: 10px;
+}
+
+#foto1 img {
+    margin: 50px 0 0 140px;
+}
+
+#foto2 img {
+    margin: 50px 0 0 340px;
+}
+
+#foto3 img {
+    margin: 50px 0 0 550px;
+}
+
+#foto4 img {
+    margin: 50px 0 0 780px;
+}
+
+#sobre, #site1, #bar1, #social {
+    position: relative;
+    font-family: verdana;
+    line-height: 1.50;
+    font-weight: 700;
+    letter-spacing: .092em;
+    font-size: 19px;
+}
+
+#sobre1, #sobre2, #site2, #site3, #site4, #site5, #site6, #bar2, #bar3, #bar4, #bar5, #social1, #social2, #social3 {
+    list-style: none;
+    font-family: arial;
+    line-height: 1.50;
+    letter-spacing: .092em;
+}
+
+#sobre {
+    margin: 290px 0 0 140px;
+}
+
+#sobre1, #sobre2 {
+    margin: 0 0 0 140px;
+} 
+
+#site1 {
+    margin: -125px 0 0 380px;
+}
+
+#site2, #site3, #site4, #site5, #site6 {
+    margin: 0 0 0 380px;
+}
+
+#bar1 {
+    margin: -206px 0 0 620px;
+}
+
+#bar2, #bar3, #bar4, #bar5 {
+    margin: 0 0 0 620px;
+}
+
+#social {
+    margin: -205px 0 0 860px;
+}
+
+#social1, #social2, #social3 {
+    margin: 0 0 0 860px;
+}
+
+#sobre1:hover, #sobre2:hover, #site2:hover, #site3:hover, #site4:hover, #site5:hover, #site6:hover, #bar2:hover, #bar3:hover, #bar4:hover, #bar5:hover, #social1:hover, #social2:hover, #social3:hover {
+   opacity: 0.65;
+}
+
+#sobre1 a, #sobre2 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+   text-decoration: none;
+
+}
+
+#img1 img {
+    position: absolute;
+    margin: 120px 0 0 85px;
+}
+
+#rua {
+    position: relative;
+    font-family: arial;
+    line-height: 1.50;
+    letter-spacing: .092em;
+     font-size: 18px;
+    margin: 10px 0 0 383px;
+}
+
+h5 {   
+    position: relative;
+    font-family: verdana;
+    line-height: 1.50;
+    font-weight: 700;
+    letter-spacing: .092em;
+    font-size: 23px;
+    margin: 130px 0 0 198px;
+}

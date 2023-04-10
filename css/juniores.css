@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+h1 {
+    font-size: 58px;
+    color: #ED3A1E;
+}
+
+.março, .abril, .maio, .julho, .outubro, .setembro, .junho, .agosto, .novembro, .desembro {
+      position: absolute;
+      width: 100%;
+      background: #A61407;
+}
+
+.março{
+      height: 680px;
+}
+
+.abril  {
+      height: 370px;
+}
+
+.maio, .julho, .setembro, .outubro {
+      height: 279px;
+}
+
+.junho, .agosto, .novembro {
+      height: 503px;
+}
+
+.desembro {
+      height: 299px;
+}
+
+.março {
+      margin-top: 488px;
+} 
+
+.abril {
+      margin-top: 1168px;
+}  
+
+.maio {
+      margin-top: 1526px;
+}
+
+.junho {
+      margin-top: 1801px;
+}
+
+.julho {
+      margin-top: 2304px;
+}
+
+.agosto {
+      margin-top: 2576px;
+}
+
+.setembro {
+      margin-top: 3079px;
+}
+.outubro {
+      margin-top: 3354px;
+}
+
+.novembro {
+      margin-top: 3629px;
+}
+
+.desembro {
+      margin-top: 4132px;
+}
+
+h6 {
+      position: relative;
+      text-align: center;
+      font-family: Caudex;
+      opacity:0.90;
+      letter-spacing: .092em;
+      margin-top: 10px;
+      font-size: 30px;
+      color: white;
+}
+
+#faixa {
+      position: absolute;
+      margin: -98px 0 0 200px;
+}
+
+#faixa1 {
+      position: absolute;
+      margin: -98px 0 0 845px;
+}
+
+#faixa2 {
+      position: absolute;
+      margin: -98px 0 0 865px;
+}
+
+#vs p {
+      position: absolute;
+      font-family: Verdana;
+      font-size: 30px;
+      color: #FFFFFF;
+      margin: 75px 0 0 113px;
+}  
+
+#horas p {
+      position: relative;
+      text-align: center;
+      font-family: Verdana;
+      letter-spacing: .092em;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-top: 149px;
+}
+
+#vertical1, #vertical2, #vertical3, #vertical4, #vertical5, #vertical6, #vertical7, #vertical8, #vertical9, #vertical10, #vertical11, #vertical12, #vertical13 {
+      position: absolute;
+      opacity:0.65;
+      margin-top: -44px;
+      width: 3px;
+      background: white;
+}
+
+#vertical1, #vertical2, #vertical3, #vertical4, #vertical5, #vertical6 {
+     height: 273px;
+}
+
+#vertical7, #vertical8, #vertical9, #vertical10, #vertical11, #vertical12, #vertical13 {
+    height: 183px;
+}
+
+#vertical3 {
+     margin-top: 275px;
+}
+
+#vertical12 {
+     margin-top: 185px;
+}
+
+#vertical4, #vertical7 {
+      margin-left: 460px;
+}
+
+#vertical1, #vertical10 {
+      margin-left: 613px;
+}
+
+#vertical3, #vertical5, #vertical8, #vertical12, #vertical13 {
+      margin-left: 760px;
+}
+
+#vertical2, #vertical11 {
+      margin-left: 903px;
+}
+
+#vertical6, #vertical9 {
+      margin-left: 1042px;
+}
+
+.março1, .março2, .março3, .março4, .março5, .abril1, .abril2, .abril3, .abril4, .maio1, .maio2, .maio3, .maio4, .junho1, .junho2, .junho3, .junho4,.junho5, .julho1, .julho2, .julho3, .julho4, .agosto1, .agosto2, .agosto3, .agosto4, .agosto5, .setembro1, .setembro2, .setembro3, .setembro4, .outubro1, .outubro2, .outubro3, .outubro4, .novembro1, .novembro2, .novembro3, .novembro4, .novembro5, .desembro1, .desembro2 {
+      position: absolute;
+      width: 250px;
+      height: 245px;
+}
+
+.março1, .março2, .março3, .abril1, .abril2, .abril3, .abril4, .maio1, .maio2, .maio3, .maio4, .junho1, .junho2, .junho3, .julho1, .julho2, .julho3, .julho4, .agosto1, .agosto2, .agosto3, .setembro1, .setembro2, .setembro3, .setembro4, .outubro1, .outubro2, .outubro3, .outubro4, .novembro1, .novembro2, .novembro3, .desembro1, .desembro2 {
+      margin-top: -50px;
+}
+
+.março4, .março5 {
+      margin-top: 270px;
+}
+
+.junho4,.junho5, .agosto4, .agosto5, .novembro4, .novembro5 {
+     margin-top: 175px;
+}
+
+.abril1, .maio1, .julho1, .setembro1, .outubro1 {
+     margin-left: 190px;
+}
+
+.março1, .junho1, .agosto1, .novembro1 {
+     margin-left: 340px;
+}
+
+.março4,.abril2, .maio2, .junho4, .julho2, .agosto4, .setembro2, .outubro2, .novembro4, .desembro1 {
+      margin-left: 486px;
+}
+
+.março2, .junho2, .agosto2, .novembro2 {
+      margin-left: 635px;
+}
+
+.abril3, .maio3, .julho3, .setembro3, .outubro3 {
+      margin-left: 776px;
+}
+
+.março5, .junho5, .agosto5, .novembro5, .desembro2 {
+      margin-left: 781px;
+}
+
+.março3, .junho3, .agosto3, .novembro3 {
+      margin-left: 923px;
+}
+
+.abril4, .maio4, .julho4, .setembro4, .outubro4 {
+      margin-left: 1068px;
+}
+
+#dias p {
+      position: absolute;
+      letter-spacing: .092em;
+      font-family: Verdana;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin: 14px 0 0 75px;
+}
+
+#escudo1 {
+      position: absolute;
+      margin: 63px 0 0 35px;
+}
+
+#escudo2 {
+      position: absolute;
+      margin: 64px 0 0 168px;
+}
+
+#versos p, #gol p, #festival a {
+      position: absolute;
+      font-family: Arial;
+      color: #FFFFFF;
+}
+
+#versos p {
+      font-size: 16px;
+      margin: 77px 0 0 94px;
+      padding: 6px 16px 6px 16px;
+     background:  white;
+     border-radius: 27px 0 27px 0;
+     box-shadow: 0 0 9px  black; 
+     opacity: 0.95;
+     color: #A61407;
+}
+
+#gol p, #festival a {
+      letter-spacing: .092em;
+      font-size: 18px;
+}
+
+#gol p {
+     margin: 147px 0 0 73px;
+}
+
+#festival a {
+      margin: 129px 0 0 55px;
+}
+
+#golde01, #golde02, #golde03, #golde04, #golde05, #golde06, #golde07, #golde08, #golde09 {
+      position: absolute;
+      font-family: helvetica;
+      letter-spacing: .092em;
+      font-size: 18px;
+      color: #FFFFFF;
+}
+
+#golde01, #golde02, #golde03, #golde04, #golde05, #golde06, #golde07, #golde08, #golde09  {
+      margin-left: 43px;
+}
+
+#golde01, #golde03, #golde04, #golde07 {
+     margin-top: 165px;
+}
+
+#golde02, #golde05, #golde08 {
+     margin-top: 195px;
+}
+
+#golde06, #golde09 {
+     margin-top: 225px;
+}
+
+#roda {
+  position: absolute;
+  margin-top: 4430px;
+  background-color: #f5f1fe;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #A61407;
+} 

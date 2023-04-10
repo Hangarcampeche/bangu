@@ -1,0 +1,356 @@
+﻿@charset "UTF-8";
+
+#site, .news, .jogo, .escolinha, .bar, .campo {
+	width: 1100px;
+	margin: -39px auto;
+}
+
+ h1 {
+ 	position: absolute;
+	margin: 100px 429px 0 429px;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-size: 42px;
+	color: #8B0000;
+} 
+
+#logo {
+	position: absolute;
+	margin: 110px 0 0 264px;
+}
+
+.slider {
+    display: block;
+    margin: auto;
+    margin: 270px 0 0 170px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 8px;
+    position: absolute;
+    width: 8px;
+    z-index: 10;
+    margin: 0 0 0 515px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 1px 0 5px 0; 
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+	 
+.jogos {
+	position: absolute;
+	margin-top: 560px;
+	width: 100%;
+	height: 640px;
+	background-color: #8B0000;
+}
+
+#veteranoa, #veteranob, #juniores, #resultadoa, #resultadob, #resultadoc {
+    position: absolute;
+	width: 290px;
+	background-color: #8B0000;
+} 
+
+#veteranoa, #veteranob, #juniores {
+	height: 195px;
+}
+
+#resultadoa, #resultadob, #resultadoc {
+	height: 145px; 
+}
+
+#veteranoa, #resultadoa {
+	margin-left: 91px;
+}
+
+#veteranob, #resultadob {
+	margin-left: 400px; 
+}
+
+#juniores, #resultadoc {
+	margin-left: 708px; 
+}
+
+h2, #proximos p, #resultado p {
+	position: relative;
+	text-align: center;
+	margin-top: 64px;
+    font-family: Verdana;
+    line-height: 1.50;
+    font-weight: 700;
+    letter-spacing: .092em;
+}
+
+#proximos p {
+	margin-top: 95px;
+}
+
+h2 {
+   font-size: 40px;
+}
+
+
+#proximos p, #resultado p {
+	font-size: 30px;
+}
+
+#proximos {
+	color: #FFFFFF;
+}
+
+#resultado {
+	color: #FFFFFF;
+	margin: 270px 0 0 0;
+}
+
+#treino {
+	color: #A81606;
+	margin: 330px 0 0 0px;
+}
+	
+ #jogostexto, #jogostexto1, #jogostexto2, #x, #jogostexto0, #x1, #x2 {
+ 	position: absolute;
+    font-family: Verdana;
+    color: white;
+} 
+	 
+#jogostexto, #jogostexto1 {
+	font-size: 24px;
+	line-height: 1.50;
+    font-weight: 500;
+    letter-spacing: .092em;
+}
+
+#jogostexto  {
+   margin: -5px 0 0 65px;
+}
+
+#jogostexto1 {
+   margin: -5px 0 0 82px;
+}
+
+#jogostexto0 {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 124px;
+	padding: 0 50px 0 50px;
+	letter-spacing: .092em;
+}
+
+#x {
+	font-size: 40px;
+	margin: 30px 0 0 130px;
+	z-index: 2;
+}
+
+#x1 {
+	font-size: 24px;
+	margin: 55px 0 0 117px;
+}
+
+#x2 {
+	font-size: 14px;
+	margin: 73px 0 0 136px;
+}
+	 
+#jogosfoto {
+	position: absolute;
+	margin: 71px 0 0 65px;
+}
+	 
+#jogosfoto1 {
+	position: absolute;
+    margin: 71px 0 0 175px;
+}
+
+#jogosfoto2 {
+	position: absolute;
+    margin: 71px 0 0 50px;
+}
+
+#aluguel {
+	margin-top: 1535px;
+	color: #A81606;
+}
+	 
+#aluguel01 p {
+	 margin-top: 5px;	
+}
+	 
+.bar {
+	position: absolute;
+	margin-top: 2125px;
+	width: 100%;
+	height: 840px;
+	background-color: #8B0000;
+	color: #FFFFFF;
+}
+
+.bar img {
+	position: relative;
+    margin: 80px 0 0 550px;
+}
+
+.bar p  {
+    position: relative;
+    margin-top: 58px;
+    font-size: 22px;
+    letter-spacing: .070em;
+    line-height: 1.50;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    padding: 0 350px 0 350px;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img {
+	position: absolute;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
+.box5 img, .box6 img, .box7 img, .box8 img {
+	position: absolute;
+    margin-top: 225px;
+    border-radius: 20px;
+}
+
+.box1, .box5 {
+    margin-left: -310px;
+}
+
+.box2, .box6 {
+    margin-left: -40px;
+}
+
+.box3, .box7 {
+    margin-left: 230px;
+}
+
+.box4, .box8 {
+    margin-left: 500px;
+}
+
+H6, H3 {
+    position: absolute;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: .092em;
+    color: white;
+    z-index: 3;
+}
+
+H6 {
+    margin: 160px 0 0 570px;
+}
+
+H3 {
+    margin: 340px 0 0 570px;
+}
+
+.treino  {
+   position: absolute;
+   width: 100%;
+   height: 600px;	
+   margin-top: 2830px;
+}
+	 
+#treino1 p {
+	 margin-top: 30px;
+}
+
+#treino2 img, #treino3 img {
+    position: absolute;
+    box-shadow: 0 0 1px  black;
+	border-radius: 27px 0 27px 0;
+}
+	 
+#treino2 img {
+	margin: 80px 0 0 76px;
+	z-index: 2;
+
+}
+	 
+#treino3 img {
+	margin: 80px 0 0 562px;
+	z-index: 2;
+}	
+
+.button {
+	position: absolute;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .092em;
+	margin: 5px 0 0 458px;
+	color: #ffffff;
+	padding: 11px 44px 11px 47px;
+	background: #A81606;
+	border-radius: 30px;
+}
+
+#treino1 p, #aluguel01 p {
+	 padding: 0 129px 0 129px;
+	 font-size: 21px;
+	 letter-spacing: .070em;
+     line-height: 1.50;
+     font-weight: 500;
+     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+     color: #333;
+	 text-indent: 27px;
+}
+
+#roda {
+	position: absolute;
+    margin-top: 2300px;
+	background-color: #8B0000;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+} 

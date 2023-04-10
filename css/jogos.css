@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+h1 {
+	position: relative;
+    font-size: 68px;
+    color: #ED3A1E;
+    margin: 90px 0 0 660px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+     position: absolute;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: .092em;
+    color: white;
+    margin: 180px 0 0 25px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    position: absolute;;
+	list-style: none;
+}
+
+.caixa1 img, .caixa2 img, .caixa3 img, .caixa4 img, .caixa5 img, .caixa6 img {
+    overflow: hidden;
+	border-radius: 27px 0 27px 0;
+}
+
+.caixa1, .caixa4 {
+	margin-left: 200px;            			
+}
+
+.caixa2, .caixa5 {
+	margin-left: 550px;            			
+}
+
+.caixa3, .caixa6 {
+	margin-left: 900px;            			
+}
+
+.caixa1, .caixa2, .caixa3 {
+    margin-top: 64px;
+}
+
+.caixa4, .caixa5, .caixa6 {
+    margin-top: 324px;
+}	
+
+#roda {
+    margin-top: 627px;
+	background-color: #8B0000;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}

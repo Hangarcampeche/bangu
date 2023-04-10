@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 620px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.foto {
+      position: absolute; 
+      margin: 81px 0 0 621px;
+}
+
+#artilharia, #estatistica {
+      position: absolute;
+      letter-spacing: .092em;
+      font-family: helvetica;
+      font-size: 22px;
+      color: #B61B1B;
+}
+
+#artilharia {
+      margin: 114px 0 0 360px;
+}
+
+#estatistica {
+      margin: 114px 0 0 1000px;
+}
+
+ #artilharia1, #artilharia3, #artilharia5, #artilharia7, #artilharia01, #artilharia02, #artilharia03, #artilharia04, #artilharia05, #artilharia06, #artilharia07, #artilharia01, #artilharia02, #artilharia03, #artilharia04, #artilharia05, #artilharia06, #artilharia07, #estatistica1, #estatistica3, #estatistica5, #estatistica7, #estatistica01, #estatistica03, #estatistica05, #estatistica07 {
+      position: absolute;
+      letter-spacing: .092em;
+      font-family: helvetica;
+      color: #B61B1B;
+      font-size: 22px;
+      list-style: none;
+}
+
+#artilharia2, #artilharia4, #artilharia6, #artilharia02, #artilharia04, #artilharia06, #estatistica2, #estatistica4, #estatistica6, #estatistica02, #estatistica04, #estatistica06 {
+      position: absolute;
+      letter-spacing: .092em;
+      font-family: helvetica;
+      color: white;
+      font-size: 22px;
+      list-style: none;
+}
+
+#artilharia1, #artilharia01, #estatistica1, #estatistica01 {
+      margin-top: 165px;
+}
+
+#artilharia2, #artilharia02, #estatistica2, #estatistica02 {
+      margin-top: 209px;
+}
+
+#artilharia3, #artilharia03, #estatistica3, #estatistica03 {
+      margin-top: 251px;
+}
+
+#artilharia4, #artilharia04, #estatistica4, #estatistica04 {
+      margin-top: 296px;
+}
+
+#artilharia5, #artilharia05, #estatistica5, #estatistica05 {
+      margin-top: 340px;
+}
+
+#artilharia6, #artilharia06, #estatistica6,  #estatistica06 {
+      margin-top: 383px;
+}
+
+#artilharia7, #artilharia07, #estatistica7, #estatistica07 {
+      margin-top: 424px;
+}
+
+#artilharia1, #artilharia2, #artilharia3, #artilharia4, #artilharia5, #artilharia6, #artilharia7 {
+      margin-left: 344px;
+}
+
+#artilharia01, #artilharia02, #artilharia03, #artilharia04, #artilharia05, #artilharia06, #artilharia07 {
+      margin-left: 494px;
+}
+
+#estatistica1, #estatistica2, #estatistica3, #estatistica4, #estatistica5, #estatistica6, #estatistica7 {
+      margin-left: 986px;
+}
+
+#estatistica01, #estatistica02, #estatistica03, #estatistica04, #estatistica05, #estatistica06, #estatistica07 {
+      margin-left: 1147px;
+}
+
+.linha1, .linha2, .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10, .linha11, .linha12 {
+      position: absolute;
+      height: 45px;
+      background: #B61B1B;
+      list-style: none;
+      border-radius: 17px 0 17px 0;
+}
+
+.linha1, .linha2, .linha3, .linha4, .linha5, .linha6 {
+      margin-left: 329px;
+      width: 205px;
+} 
+
+.linha7, .linha8, .linha9, .linha10, .linha11, .linha12 {
+      margin-left: 973px;
+      width: 215px;
+}
+
+.linha1, .linha7 {
+      margin-top: 220px; 
+}
+.linha3, .linha9 {
+      margin-top: 307px;
+}
+
+.linha5, .linha11 {
+      margin-top: 394px;
+}
+
+.março, .abril, .maio, .julho, .outubro, .setembro, .junho, .agosto, .novembro, .desembro {
+      position: absolute;
+      width: 100%;
+      background: #8B0000;
+}
+
+.março{
+      height: 680px;
+}
+
+.abril  {
+      height: 370px;
+}
+
+.maio, .julho, .setembro, .outubro {
+      height: 279px;
+}
+
+.junho, .agosto, .novembro {
+      height: 503px;
+}
+
+.desembro {
+      height: 299px;
+}
+
+.março {
+      margin-top: 508px;
+} 
+
+.abril {
+      margin-top: 1188px;
+}  
+
+.maio {
+      margin-top: 1546px;
+}
+
+.junho {
+      margin-top: 1821px;
+}
+
+.julho {
+      margin-top: 2324px;
+}
+
+.agosto {
+      margin-top: 2596px;
+}
+
+.setembro {
+      margin-top: 3099px;
+}
+.outubro {
+      margin-top: 3374px;
+}
+
+.novembro {
+      margin-top: 3649px;
+}
+
+.desembro {
+      margin-top: 4152px;
+}
+
+h6 {
+      position: relative;
+      text-align: center;
+      font-family: 'Droid Serif', serif;
+      letter-spacing: .092em;
+      margin-top: 50px;
+      font-size: 30px;
+      color: white;
+}
+
+#faixa {
+      position: absolute;
+      margin: -98px 0 0 206px;
+}
+
+#faixa1 {
+      position: absolute;
+      margin: -98px 0 0 850px;
+}
+
+#faixa2 {
+      position: absolute;
+      margin: -98px 0 0 870px;
+}
+
+#vs p {
+      position: absolute;
+      font-family: Verdana;
+      font-size: 30px;
+      color: #FFFFFF;
+      margin: 75px 0 0 113px;
+}  
+
+#horas p {
+      position: relative;
+      text-align: center;
+      font-family: Verdana;
+      letter-spacing: .092em;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin-top: 149px;
+}
+
+#vertical1, #vertical2, #vertical3, #vertical4, #vertical5, #vertical6, #vertical7, #vertical8, #vertical9, #vertical10, #vertical11, #vertical12, #vertical13 {
+      position: absolute;
+      margin-top: -5px;
+      width: 2px;
+      background: white;
+}
+
+#vertical1, #vertical2, #vertical3, #vertical4, #vertical5, #vertical6 {
+     height: 180px;
+}
+
+#vertical7, #vertical8, #vertical9, #vertical10, #vertical11, #vertical12, #vertical13 {
+    height: 110px;
+}
+
+#vertical3 {
+     margin-top: 310px;
+}
+
+#vertical12 {
+     margin-top: 215px;
+}
+
+#vertical4, #vertical7 {
+      margin-left: 449px;
+}
+
+#vertical1, #vertical10 {
+      margin-left: 602px;
+}
+
+#vertical3, #vertical5, #vertical8, #vertical12, #vertical13 {
+      margin-left: 749px;
+}
+
+#vertical2, #vertical11 {
+      margin-left: 892px;
+}
+
+#vertical6, #vertical9 {
+      margin-left: 1031px;
+}
+
+.março1, .março2, .março3, .março4, .março5, .abril1, .abril2, .abril3, .abril4, .maio1, .maio2, .maio3, .maio4, .junho1, .junho2, .junho3, .junho4,.junho5, .julho1, .julho2, .julho3, .julho4, .agosto1, .agosto2, .agosto3, .agosto4, .agosto5, .setembro1, .setembro2, .setembro3, .setembro4, .outubro1, .outubro2, .outubro3, .outubro4, .novembro1, .novembro2, .novembro3, .novembro4, .novembro5, .desembro1, .desembro2 {
+      position: absolute;
+      width: 250px;
+      height: 245px;
+}
+
+.março1, .março2, .março3, .abril1, .abril2, .abril3, .abril4, .maio1, .maio2, .maio3, .maio4, .junho1, .junho2, .junho3, .julho1, .julho2, .julho3, .julho4, .agosto1, .agosto2, .agosto3, .setembro1, .setembro2, .setembro3, .setembro4, .outubro1, .outubro2, .outubro3, .outubro4, .novembro1, .novembro2, .novembro3, .desembro1, .desembro2 {
+      margin-top: -50px;
+}
+
+.março4, .março5 {
+      margin-top: 270px;
+}
+
+.junho4,.junho5, .agosto4, .agosto5, .novembro4, .novembro5 {
+     margin-top: 175px;
+}
+
+.abril1, .maio1, .julho1, .setembro1, .outubro1 {
+     margin-left: 179px;
+}
+
+.março1, .junho1, .agosto1, .novembro1 {
+     margin-left: 329px;
+}
+
+.março4,.abril2, .maio2, .junho4, .julho2, .agosto4, .setembro2, .outubro2, .novembro4, .desembro1 {
+      margin-left: 475px;
+}
+
+.março2, .junho2, .agosto2, .novembro2 {
+      margin-left: 624px;
+}
+
+.abril3, .maio3, .julho3, .setembro3, .outubro3 {
+      margin-left: 765px;
+}
+
+.março5, .junho5, .agosto5, .novembro5, .desembro2 {
+      margin-left: 770px;
+}
+
+.março3, .junho3, .agosto3, .novembro3 {
+      margin-left: 912px;
+}
+
+.abril4, .maio4, .julho4, .setembro4, .outubro4 {
+      margin-left: 1057px;
+}
+
+#dias p {
+      position: absolute;
+      letter-spacing: .092em;
+      font-family: Verdana;
+      font-size: 18px;
+      color: #FFFFFF;
+      margin: 14px 0 0 75px;
+}
+
+#escudo1 {
+      position: absolute;
+      margin: 63px 0 0 35px;
+}
+
+#escudo2 {
+      position: absolute;
+      margin: 64px 0 0 168px;
+}
+
+#versos p, #gol p, #festival a {
+      position: absolute;
+      font-family: Arial;
+      color: #FFFFFF;
+}
+
+#versos p {
+      font-size: 15px;
+      margin: 77px 0 0 98px;
+      padding: 6px 12px 6px 12px;
+     background:  white;
+     border-radius: 14px 2px 14px 2px;
+     opacity: 0.95;
+     color: #A61407;
+}
+
+#gol p, #festival a {
+      letter-spacing: .092em;
+      font-size: 18px;
+}
+
+#gol p {
+     margin: 147px 0 0 73px;
+}
+
+#festival a {
+      margin: 129px 0 0 55px;
+}
+
+#golde01, #golde02, #golde03, #golde04, #golde05, #golde06, #golde07, #golde08, #golde09 {
+      position: absolute;
+      font-family: helvetica;
+      letter-spacing: .092em;
+      font-size: 18px;
+      color: #FFFFFF;
+}
+
+#golde01, #golde02, #golde03, #golde04, #golde05, #golde06, #golde07, #golde08, #golde09  {
+      margin-left: 43px;
+}
+
+#golde01, #golde03, #golde04, #golde07 {
+     margin-top: 165px;
+}
+
+#golde02, #golde05, #golde08 {
+     margin-top: 195px;
+}
+
+#golde06, #golde09 {
+     margin-top: 225px;
+}
+
+#roda {
+  position: absolute;
+  margin-top: 4450px;
+  background-color: #f5f1fe;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #8B0000;
+}

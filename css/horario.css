@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 650px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#caixa { 
+     position: relative;
+     margin: 70px auto;
+     height: 570px;
+     width: 908px;
+     background-color: #F4F4F4;
+     border-radius: 20px 0 20px 0;
+     box-shadow: 0 0 3px  black;
+}
+
+#caixa li   {
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 10px;
+    color: #A61407; 
+    display: block;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#dia {
+   padding: 90px 0 0 100px;
+}
+
+#segunda li, #terça li, #quarta li, #quinta li, #sexta li, #sabado li, #domingo li{
+    position: relative;
+    list-style: none;
+    background-color: #B61B1B;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    float: low;
+    margin: 20px 0 0 30px;
+}
+
+#quarta li p, #quinta li p, #sexta li p, #sabado li p, #domingo li p{
+    position: absolute;
+    margin: 8px 20px;
+    color: white;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+#quarta li {
+   left: 345px;
+   top: -480px;
+}
+
+#quinta li {
+   left: 495px;
+   top: -645px;
+}
+
+#sexta li {
+   left: 640px;
+   top: -810px;
+}
+
+#sabado li {
+   left: 785px;
+   top: -975px;
+}
+
+#domingo li {
+   left: 935px;
+   top: -1360px;
+}
+
+h2 {
+    position: absolute;
+    margin: 37px 0 0 385px;
+    font-size: 35px;
+    color: #A61407;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: .092em;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+#vermelho {
+    position: relative;
+    top: -1730px;
+    width: 1350px;
+    height: 380px;
+    background-color: #8B0000;
+}
+
+#caixa21, #caixa22, #caixa23 {
+    position: absolute;
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    border-radius: 27px 0 27px 0;
+    box-shadow: 0 0 3px  black;
+}
+
+#caixa21 p, #caixa22 p, #caixa23 p {
+    position: relative;
+    text-align: center; 
+    font-family: Verdana;
+    line-height: 1.50;
+    font-weight: 600;
+    letter-spacing: .092em;
+    font-size: 20px;
+    color: #8B0000;
+}
+
+#caixa21 {
+    margin: 85px 0 0 310px;
+}
+
+#caixa22 {
+    position: absolute;
+    margin: 85px 0 0 625px;
+}
+
+#caixa23 {
+    position: absolute;
+    margin: 85px 0 0 935px;
+}
+
+#caixa1 { 
+     position: relative;
+     margin: -1520px auto;
+     height: 510px;
+     width: 908px;
+     background-color: white;
+     border-radius: 20px 0 20px 0;
+     box-shadow: 0 0 3px  black;
+}    
+      
+#caixa1 p {
+     position: absolute;
+     margin: 45px 260px 0 60px;
+     font-size: 21px;
+     line-height: 1.70;
+     letter-spacing: .022em;
+     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+     color: #333;
+     text-indent: 27px;
+}
+
+#caixa1 img {
+    position: absolute;
+    margin: 100px 0 0 610px; 
+}
+
+#roda {
+    position: relative;
+    background-color: #8B0000;
+    margin-top: 1750px;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}

@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 600px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.foto {
+      position: absolute;
+      margin: 20px 0 0 309px; 
+}
+
+#caixa {
+     position: absolute;
+     margin: 60px 0 0 594px;
+     height: 345px;
+     width: 605px;
+     background-color: white;
+     border-radius: 20px 0 20px 0;
+     box-shadow: 0 0 1px 0 black;
+}
+
+#texto p {
+     position: relative;
+     margin: 100px 350px 0 629px; 
+     font-size: 21px;
+     line-height: 1.50;
+     letter-spacing: .022em;
+     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.primeiro, .segundo, .terceiro {
+      position: absolute;
+      width: 100%;
+      background: #8B0000;
+}
+
+.primeiro {
+      height: 230px;
+      margin-top: 122px;
+}
+
+.segundo {
+      height: 635px;
+      margin-top: 352px;
+}
+
+.terceiro {
+     height: 440px;
+     margin-top: 977px;
+}
+
+.primeiro1, .segundo1, .segundo2, .segundo3, .segundo4,.segundo5, .segundo6, .segundo7, .terceiro1, .terceiro2, .terceiro3, .terceiro4 {
+      position: absolute;
+      width: 250px;
+      height: 145px;
+}
+
+.primeiro1, .segundo1, .segundo2, .segundo3, .terceiro1, .terceiro2, .terceiro3, .terceiro4 {
+      margin-top: -50px;
+}
+
+.segundo4,.segundo5, .segundo6, .terceiro4 {
+     margin-top: 145px;
+}
+
+.segundo7 {
+  margin-top: 330px;
+}
+
+.primeiro1, .segundo2, .segundo5, .segundo7, .terceiro2, .terceiro4 {
+  margin-left: 624px; 
+}
+
+.segundo1, .segundo4, .terceiro1 {
+     margin-left: 279px;
+}
+
+.segundo3, .segundo6, .terceiro3 {
+      margin-left: 962px;
+}
+
+#vertical7, #vertical8, #vertical10, #vertical11, #vertical12, #vertical13 {
+      position: absolute;
+      margin-top: 0px;
+      width: 3px;
+      background: white;
+      height: 100px;
+}
+
+#vertical13, #vertical12 {
+     margin-top: 195px;
+}
+
+#vertical7 {
+      margin-left: 449px;
+}
+
+#vertical8 {
+      margin-left: 749px;
+}
+
+#vertical10, #vertical12 {
+      margin-left: 577px;
+}
+
+ #vertical11, #vertical13 {
+      margin-left: 917px;
+}
+
+h6 {
+      position: relative;
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      letter-spacing: .092em;
+      margin-top: 50px;
+      font-size: 30px;
+      color: white;
+}
+
+#faixa {
+      position: absolute;
+      margin: -98px 0 0 200px;
+}
+
+#faixa1 {
+      position: absolute;
+      margin: -98px 0 0 834px;
+}
+
+#vs p, #horas p   {
+      font-family: Verdana;
+      color: #FFFFFF;
+}
+
+#vs p {
+     position: relative;
+     text-align: center;
+     font-size: 15px;
+     margin: 40px 90px 0 90px;
+     padding: 5px;
+     background:  white;
+     border-radius: 18px 0 18px 0;
+     color: #A61407;
+}
+
+#horas p {
+      font-weight: 700;
+      letter-spacing: .092em;
+      font-size: 18px;
+      margin: 14px 0 0 77px;
+}
+
+#escudo0, #escudo1, #escudo5, #escudo6, #escudo7, #escudo8, #escudo9, #escudo10, #escudo11, #escudo12, #escudo13, #escudo14, #escudo15, #escudo16, #escudo17, #escudo18, #escudo19, #escudo20, #escudo21, #escudo22 {
+     position: absolute;
+}  
+
+#escudo0 p, #escudo1 p, #escudo5 p, #escudo6 p, #escudo7 p, #escudo8 p, #escudo9 p, #escudo10 p, #escudo11 p, #escudo12 p, #escudo13 p, #escudo14 p, #escudo15 p, #escudo16 p, #escudo17 p, #escudo18 p, #escudo19 p, #escudo20 p, #escudo21 p, #escudo22 p {
+      position: relative;
+      text-align: center;
+      font-size: 15px;
+      font-family: Arial;
+      letter-spacing: .092em;
+      color: #FFFFFF;
+}
+
+#escudo0 {
+      margin: 22px 0 0 26px;
+}
+
+#escudo0 p {
+      margin: 0 0 0 -24px;
+}
+
+#escudo1 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo1 p {
+      margin: 0 0 0 -23px;
+}
+
+#escudo5 {
+      margin: 22px 0 0 26px;
+}
+
+#escudo5 p {
+      margin: 0 0 0 -15px;
+}
+
+#escudo6 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo6 p {
+      margin: 0;
+}
+
+#escudo7 {
+      margin: 22px 0 0 20px;
+}
+
+#escudo7 p {
+      margin: 0 160px 0 1px;
+}
+
+#escudo8 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo8 p {
+      margin: 0 0 0 -10px;
+}
+
+#escudo9 {
+      margin: 22px 0 0 11px;
+}
+
+#escudo9 p {
+      margin: 0 130px 0 -45px;
+}
+
+#escudo10 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo10 p {
+      margin: 0 -10px 0 -20px;
+}
+
+#escudo11 {
+      margin: 22px 0 0 11px;
+}
+
+#escudo11 p {
+      margin: 0 170px 0 -4px;
+}
+
+#escudo12 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo12 p {
+      margin: 0 0 0 5px;
+}
+
+#escudo13 {
+      margin: 22px 0 0 11px;
+}
+
+#escudo13 p {
+      margin: 0;
+}
+
+#escudo14 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo14 p {
+      margin: 0 0 0 5px;
+}
+
+#escudo15 {
+      margin: 22px 0 0 26px;
+}
+
+#escudo15 p {
+      margin: 0 160px 0 -16px;
+}
+
+#escudo16 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo16 p {
+      margin: 0 10px 0 -13px;
+}
+
+#escudo17 {
+      margin: 22px 0 0 25px;
+}
+
+#escudo17 p {
+      margin: 0;
+}
+
+#escudo18 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo18 p {
+      margin: 0 -5px 0 -17px;
+}
+
+#escudo19 {
+      margin: 22px 0 0 11px;
+}
+
+#escudo19 p {
+      margin: 0;
+}
+
+#escudo20 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo20 p {
+      margin: 0 -15px 0 -34px;
+}
+
+#escudo21 {
+      margin: 22px 0 0 11px;
+}
+
+#escudo21 p {
+      margin: 0 153px 0 -23px;
+}
+
+#escudo22 {
+      margin: -48px 0 0 171px;
+}
+
+#escudo22 p {
+      margin: 0 0 0 -5px;
+}
+
+#escudoescrita1 p, #escudoescrita2 p {
+      position: absolute;
+      font-size: 22px;
+      font-family: Air Americana;
+      letter-spacing: .092em;
+      color: #FFFFFF;
+}
+
+#escudoescrita1 p {
+      margin: 40px 0 0 30px;
+}
+
+#escudoescrita2 p {
+      margin: -29px 0 0 167px;
+}
+
+#roda {
+  position: absolute;
+  margin-top: 1417px;
+  background-color: #f5f1fe;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #A61407;
+}

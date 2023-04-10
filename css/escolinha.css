@@ -1,0 +1,394 @@
+@charset "UTF-8";
+
+#site, #datas, #mapa, .contato {
+	position: relative;
+	width: 1100px;
+}
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 620px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#escolinha img {
+	 position: relative;
+	 margin: 74px 0 0 350px;
+     border-radius: 27px 0 27px 0;
+     box-shadow: 0 0 3px  black;
+}
+
+#caixa4 {
+     position: absolute;
+     margin: 25px 139px 0 330px;
+     height: 800px;
+     width: 1189px;
+     background-color: white;
+     border-radius: 20px 0 0 0;
+     opacity: .70;
+     box-shadow: 0 0 1px 0 black;
+}	 
+	  
+#texto p {
+     position: relative;
+     margin: 70px 270px 0 390px;
+	 font-size: 21px;
+     line-height: 1.70;
+     letter-spacing: .022em;
+     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+     color: #333;
+     text-indent: 27px;
+}
+
+#texto a {
+     color: #333; 
+}
+
+#treino1 img, #treino2 img, #treino3 img, #treino4 img {
+    position: absolute;
+    border-radius: 27px 0 27px 0;
+    box-shadow: 0 0 3px  black;
+}
+      
+#treino1 img {
+    margin: 35px 0 0 276px;
+}
+     
+#treino2 img {
+    margin: 35px 0 0 769px;
+}
+
+#treino3 img {
+    margin: 315px 0 0 276px;
+}
+     
+#treino4 img {
+    margin: 315px 0 0 769px;
+}
+
+#caixa5 {
+     position: absolute;
+     margin: 600px 0 0 -210px;
+     height: 115px;
+     width: 1290px;
+     background-color: white;
+     border-radius: 0 27px 0px 0;
+     box-shadow: 0 0 1px 0 black;
+}
+
+#caixa5 p {
+    position: absolute;
+    margin: 45px 0 0 240px;
+    position: relative;
+    font-family: Verdana;
+    letter-spacing: .092em;
+    font-size: 25px;
+    color: #333;
+    text-indent: 27px;
+}
+
+#vertical1, #vertical2, #vertical3 {
+      position: absolute;
+      margin-top: -44px;
+      width: 2px;
+      height: 50px;
+      background: #8B0000;
+}
+
+#vertical1 {
+    margin-left: 660px;
+}
+
+#vertical2 {
+    margin-left: 860px;
+}
+
+#vertical3 {
+    margin-left: 1080px;
+}
+
+#foto5 img, #foto6 img, #foto7 img, #foto8 img {
+    position: absolute;
+    width: 115px; 
+    border-radius: 12px 0px 12px 0px;
+}
+
+#foto5 img {
+    margin: -62px 0 0 490px;
+    height: 90px;
+    width: 135px; 
+}
+
+#foto6 img {
+     margin: -63px 0 0 695px;
+     height: 85px;
+     width: 135px;
+}
+
+#foto7 img {
+     margin: -58px 0 0 910px;
+     width: 135px; 
+     height: 83px;
+}
+
+#foto8 img {
+     margin: -62px 0 0 1100px;
+     height: 93px;
+}
+
+.datas {
+	position: relative;
+	width: 100%;
+	margin: 155px auto;
+	height: 530px;
+    z-index: 3;
+}
+
+#datas1 {
+    position: absolute;
+    width: 1350px;
+    margin: 795px 0 0 0;
+    height: 500px;
+    background-color: #8B0000;
+    z-index: 2;
+    box-shadow: 0 0 3px  black;
+}
+
+#datas {
+	 margin: 640px auto;
+	 height: 530px;
+}
+
+#treino5 img, #treino6 img, #treino7 img {
+      position: absolute; 
+      margin-top: 230px;
+      border-radius: 27px 0 27px 0;
+}
+
+#treino5 {
+	margin: 230px 0 0 64px;
+}
+
+#treino6 {
+	margin: 230px 0 0 399px;
+}
+
+#treino7 {
+	margin: 230px 0 0 734px;
+}
+ 
+#treino5 p, #treino6 p, #treino7 p {
+	 position: absolute;
+     line-height: 1.50;
+     letter-spacing: .102em;
+     margin:460px 0 0 115px;
+     font-family: Jazz LET, fantasy;
+     font-weight: 500;
+     font-size: 28px;
+	 color: white;
+	 opacity: 0.85;
+}
+
+#treino50 p, #treino51 p, #treino52 p, #treino72 p {
+	 position: absolute;
+     line-height: 1.50;
+     letter-spacing: .092em;
+     font-family: helvetica;
+	 font-size: 19px;
+     font-weight: 300;
+     opacity:0.85;
+	 color: white;
+}
+
+#treino50 p {
+    margin: 510px 0 0 55px;
+}
+
+#treino51 p {
+	margin: 540px 0 0 57px;
+}
+
+#treino52 p {
+	margin: 570px 0 0 90px;
+}
+
+#treino72 p {
+	margin: 570px 0 0 56px;
+}
+
+.mapa {
+	position: relative;
+	margin: -600px 0 0 169px;
+	width: 1350px;
+	height: 405px;
+	background-color: white;
+    box-shadow: 0 0 1px 0 black;
+}
+
+#mapa {
+	 margin: auto;
+}
+		
+#mapa0 p, #mapa1 p, #mapa2 p, #mapa3 p, #mapa4 p, #mapa5 p, #mapa6 p {
+	 position: absolute;
+     line-height: 1.50;
+     letter-spacing: .092em;
+}
+
+#mapa0 p{
+	 margin: 125px 0 0 124px;
+     font-family: Verdana;
+     font-weight: 700;
+     opacity:0.85;
+     font-size: 27px;
+	 color: #A81606;
+}
+
+#mapa1 p, #mapa2 p, #mapa3 p, #mapa4 p, #mapa5 p, #mapa6 p {
+	 font-family: helvetica;
+	 font-size: 15px;
+}
+
+#mapa1 p, #mapa3 p, #mapa5 p {
+	color: #ED3A1E;
+}
+
+#mapa2 p, #mapa4 p, #mapa6 p {
+	color: black;
+}
+
+#mapa1 p {
+	margin: 195px 0 0 124px;
+}
+
+#mapa2 p {
+     margin: 230px 0 0 134px;
+}
+	   
+#mapa3 p {
+     margin: 255px 0 0 124px;
+}
+	   
+#mapa4 p {
+     margin: 290px 0 0 134px;
+}
+	   
+#mapa5 p {
+     margin: 315px 0 0 124px;
+}
+	   
+#mapa6 p {
+     margin: 340px 0 0 134px;
+}
+	   
+#map-canvas {
+	 position: absolute;
+     padding: 220px 0 0 455px;
+	 margin: 150px 0 0 509px;
+}
+
+#usuario {
+    position: relative;
+    margin: 60px 0 0 460px;
+    border: none;
+}
+
+input, select {
+    margin: 7px 0 0 5px;
+    padding: 7px 23px 7px 23px;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 30px;
+    letter-spacing: .062em;
+    border: none;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color: #dcdcdc;
+}
+
+
+h3 {
+    color: #8B0000;
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    margin: 30px 20px 0px 20px;
+    padding: 0 0 0 10px;
+    letter-spacing: .12em;
+}
+
+#caixa {
+    position: absolute;
+    margin: 0 0 0 -100px;
+    width: 370px;
+}
+
+#caixa2, #caixa3 {
+    position: absolute;
+    height: 545px;
+    width: 375px;
+    background-color: white;
+    border-radius: 20px;
+    opacity: .70;
+    box-shadow: 0 0 1px 0 black;
+}
+
+#caixa2 {
+    margin: 60px 0 0 364px;
+}
+
+.caixa3 {
+    margin: -13px 0 0 804px;
+}
+
+#caixa3 {
+    position: absolute;
+    margin: 0 0 0 804px;
+    height: 545px;
+    width: 375px;
+}
+
+#caixa3 p {
+    position: relative;
+    margin: 80px 40px 40px 40px;
+    font-size: 19px;
+    line-height: 1.70;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#aperta {
+    position: absolute;
+    font-family: Verdana;
+    margin-left: 85px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .092em;
+    color: #8B0000;
+    padding: 7px 30px 7px 30px;
+    background: white;
+    border-radius: 17px 17px 17px 17px;
+    border-color: white; 
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-family: Verdana;
+    letter-spacing: .092em;
+    font-size: 22px;
+    color: #800000;
+    margin-top: 25px;
+    padding: 0 0 10px 0;
+}
+
+#roda {
+	position: absolute;
+    margin-top: 580px;
+	background-color: #8B0000;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}		

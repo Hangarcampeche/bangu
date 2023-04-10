@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 650px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#caixa { 
+     position: relative;
+     margin: 70px auto;
+     height: 610px;
+     width: 908px;
+     background-color: #F4F4F4;
+     border-radius: 20px 0 20px 0;
+     box-shadow: 0 0 3px  black;
+}
+
+#caixa li   {
+    list-style: none;
+    float: left;
+    position: relative;
+    left: 10px;
+    color: #A61407; 
+    display: block;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#dia {
+   padding: 90px 0 0 100px;
+}
+
+#quarta li, #quinta li, #sexta li, #sabado li, #domingo li {
+    position: relative;
+    list-style: none;
+    background-color: #B61B1B;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    float: low;
+    margin: 20px 0 0 30px;
+}
+
+#dia1, #dia2, #dia3, #dia4, #dia5, #dia6, #dia7, #dia8, #dia9, #dia10, #dia11, #dia12, #dia13, #dia14, #dia15, #dia16, #dia17, #dia18, #dia19, #dia20, #dia21, #dia22, #dia23 {
+    position: absolute;
+    list-style: none;
+    background-color: #B61B1B;
+    border-radius: 10px;
+    width: 64px;
+    height: 35px;
+    float: low;
+    z-index: 2;
+    color: white;
+    padding: 0 0 14px 27px;
+}
+
+#dia1 {
+    margin: -520px 0 0 410px;
+}
+
+#dia2 {
+    margin: -460px 0 0 410px;
+}
+
+#dia3 {
+    margin: -400px 0 0 410px;
+}
+
+#dia4 {
+    margin: -520px 0 0 545px;
+}
+
+#dia5 {
+    margin: -460px 0 0 545px;
+}
+
+#dia6 {
+    margin: -400px 0 0 545px;
+}
+
+#dia7 {
+    margin: -520px 0 0 680px;
+}
+
+#dia8 {
+    margin: -460px 0 0 680px;
+}
+
+#dia9 {
+   margin: -400px 0 0 680px;
+}
+
+#dia10 {
+    margin: -520px 0 0 815px;
+}
+
+#dia11 {
+    margin: -460px 0 0 815px;
+}
+
+#dia12 {
+    margin: -400px 0 0 815px;
+}
+
+#dia13 {
+    margin: -340px 0 0 815px;
+}
+
+#dia14 {
+    margin: -280px 0 0 815px;
+}
+
+#dia15 {
+    margin: -220px 0 0 815px;
+}
+
+#dia16 {
+    margin: -160px 0 0 815px;
+}
+
+#dia17 {
+    margin: -520px 0 0 950px;
+}
+
+#dia18 {
+    margin: -460px 0 0 950px;
+}
+
+#dia19 {
+    margin: -400px 0 0 950px;
+}
+
+#dia20 {
+    margin: -340px 0 0 950px;
+}
+
+#dia21 {
+    margin: -280px 0 0 950px;
+}
+
+#dia22 {
+    margin: -220px 0 0 950px;
+}
+
+#dia23 {
+    margin: -160px 0 0 950px;
+}
+
+#super1, #super2, #super3 {
+    position: absolute;
+    border-radius: 10px;
+    width: 105px;
+    height: 35px;
+    z-index: 2;
+    color: white;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#super1 p, #super2 p, #super3 p {
+    position: absolute;
+    color: white;
+    letter-spacing: .092em;
+    font-size: 17,5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#super1 {
+     margin: -1395px 0 0px 530px;
+     background-color: green;
+}
+
+#super1 p {
+     margin: 8px 0 0 15px;
+}
+
+#super2 {
+     margin: -1395px 0 0px 685px;
+     background-color: #B61B1B;
+}
+
+#super2 p {
+     margin: 8px 0 0 22px;
+}
+
+#super3 {
+     margin: -1395px 0 0px 835px;
+     background-color: #778899;
+}
+
+#super3 p {
+     margin: 8px 0 0 33px;
+}
+
+#quarta li p, #quinta li p, #sexta li p, #sabado li p, #domingo li p{
+    position: absolute;
+    margin: 8px 20px;
+    color: white;
+    letter-spacing: .092em;
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+#quarta li {
+   left: 345px;
+   top: -530px;
+}
+
+#quinta li {
+   left: 495px;
+   top: -695px;
+}
+
+#sexta li {
+   left: 640px;
+   top: -860px;
+}
+
+#sabado li {
+   left: 785px;
+   top: -1025px;
+}
+
+#domingo li {
+   left: 935px;
+   top: -1410px;
+}
+
+H2, H3 {
+    position: absolute;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 34px;
+    letter-spacing: .092em;
+}
+
+h2 {
+    margin: 37px 0 0 385px;
+    color: #A61407;
+}
+
+
+h3 {
+    font-weight: 500;;
+    color: white;
+    margin: 180px 0 0 25px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    position: absolute;;
+    list-style: none;
+}
+
+.caixa1 img, .caixa2 img, .caixa3 img, .caixa4 img, .caixa5 img, .caixa6 img {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.caixa1, .caixa4 {
+    margin-left: 200px;                     
+}
+
+.caixa2, .caixa5 {
+    margin-left: 550px;                     
+}
+
+.caixa3, .caixa6 {
+    margin-left: 900px;                     
+}
+
+.caixa1, .caixa2, .caixa3 {
+    margin-top: 64px;
+}
+
+.caixa4, .caixa5, .caixa6 {
+    margin-top: 324px;
+}
+
+
+#roda {
+    position: relative;
+    background-color: #8B0000;
+    margin-top: 650px;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}

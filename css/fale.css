@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 650px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.question {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 0 10px;
+  margin-left: 300px;
+  font-family: DIN Pro,sans-serif;
+  font-size: 25px;
+
+}
+
+.question input,
+.question .answer { 
+    display: none;
+}
+
+.question label, .question input:checked ~ .answer {
+    height: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 6px 0 black;
+}
+
+.question label {
+  display: inline-block;
+  opacity: 0.95;
+  margin-bottom: 5px;
+  width: 850px;
+  color: #800000;
+  background-color: #f5f1fe; 
+  border-radius: 27px 0 27px 0;
+}
+
+.question input:checked ~ .answer {
+  display: block;
+  width: 770px;
+  margin: -4px 0 0 20px; 
+  color: white;
+  background-color: #800000; 
+  box-shadow: 1px 0 5px 0 black;
+  border-radius: 0 0 27px 0;
+}
+
+h2 {
+    position: relative;
+    margin-left: 350px;
+    font-family: Verdana;
+    font-weight: 500;
+    letter-spacing: .092em;
+    font-size: 40px;
+    color: #800000;
+}
+
+#campo {
+   margin-top: 130px;
+}
+
+#escolinha {
+    margin-top: 80px;
+}
+
+#bar {
+  margin-top: 80px;
+}
+
+h1 {
+    font-size: 58px;
+    color: #ED3A1E;
+}
+
+#roda {
+    position: absolute;
+    background-color: #8B0000;
+    margin-top: 70px;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+    font-size: 58px;
+    color: #ED3A1E;
+    margin: 80px 0 0 670px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+	position: relative;
+	margin: 100px 160px 0 160px;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-size: 42px;
+	color: #8B0000;
+}
+
+h3 {
+	position: relative;
+	text-align: center; 
+    font-family: Verdana;
+    line-height: 1.50;
+    font-weight: 700;
+    letter-spacing: .092em;
+	font-size: 35px;
+	opacity:0.85;
+	color: #FFFFFF;
+}
+
+.deveres {
+	position: absolute;
+	margin-top: 100px;
+	width: 100%;
+	height: 520px;
+	box-shadow: 1px 0 5px 0;
+	background-color: #8B0000;
+
+}
+
+#visao {
+    margin-top: 94px;
+}
+
+#nos {
+	position: relative;
+	margin: 70px 0 0 196px;
+}
+
+#texto p, #texto1 p, #texto2 p  {
+     position: relative;
+	 line-height: 150%; 
+	 font-size: 21px;
+	 letter-spacing: .092em;
+     line-height: 1.50;
+     font-weight: 500;
+     letter-spacing: -.022em;
+     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+     text-indent: 27px;
+     letter-spacing: .052em;
+}
+
+#texto p {
+	 margin: -147px 129px 0 370px;
+}
+
+#texto1 p {
+	 margin: 0px 129px 0 129px;
+}
+
+#texto2 p {
+	 margin: 0px 129px 0 129px;
+	 color: #FFFFFF;
+}
+
+#roda {
+	position: absolute;
+    margin-top: 2172px;
+	background-color: #8B0000;
+}
+
+h4, #rua, #fale, #fale a, h5, #sobre, #site1, #bar1, #social, #sobre1 a, #sobre2 a, #sobre2 a, #site1 a, #site2 a, #site3 a, #site4 a, #site5 a, #site6 a, #bar2 a, #bar3 a, #bar4 a, #bar5 a, #social1 a, #social2 a, #social3 a {
+    color: #FFFFFF;
+}
